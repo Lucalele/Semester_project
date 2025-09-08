@@ -1,0 +1,13 @@
+[project]
+name = "semester-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "numpy>=2.3.2",
+    "pyhamcrest>=2.1.0",
+]
