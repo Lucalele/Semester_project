@@ -10,4 +10,5 @@ dependencies = []
 dev = [
     "numpy>=2.3.2",
     "pyhamcrest>=2.1.0",
+    "pytest>=8.4.2",
 ]
