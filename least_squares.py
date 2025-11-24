@@ -13,7 +13,7 @@ def compute_least_squares_line(x_values, y_values):
 
     det = n * sum_xx - sum_x * sum_x
     if det == 0:
-        raise ValueError("Determinant zero — cannot compute least-squares line.")
+        raise ValueError("Determinant zero. Cannot compute least-squares line.")
 
     b = (sum_y * sum_xx - sum_x * sum_xy) / det
     m = (n * sum_xy - sum_x * sum_y) / det
