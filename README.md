@@ -9,3 +9,5 @@
     - pytest
     - hamcrest
     - numpy
+
+# Use uv run main.py sample-input.txt to run

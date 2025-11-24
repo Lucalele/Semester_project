@@ -1,4 +1,4 @@
-# main.py
+
 import sys
 from parse_temps import parse_raw_temps
 from piecewise import write_interpolation_file
